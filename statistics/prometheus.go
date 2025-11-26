@@ -5,6 +5,7 @@ import (
 	"github.com/griesbacher/nagflux/collector"
 	"github.com/griesbacher/nagflux/logging"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/promhttp"
 	"net"
 	"net/http"
 	"sync"
@@ -106,7 +107,7 @@ func NewPrometheusServer(address string) PrometheusServer {
 	pMutex.Unlock()
 	if address != "" {
 		go func() {
-			http.Handle("/metrics", prometheus.Handler())
+			http.Handle("/metrics", promhttp.Handler())
 			if err := http.ListenAndServe(address, nil); err != nil {
 				logging.GetLogger().Warn(err.Error())
 			}

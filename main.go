@@ -11,7 +11,7 @@ import (
 	"github.com/griesbacher/nagflux/config"
 	"github.com/griesbacher/nagflux/data"
 	"github.com/griesbacher/nagflux/logging"
-	"github.com/griesbacher/nagflux/statistics"
+	"github.com/FreddieAkeroyd/nagflux/statistics"
 	"github.com/griesbacher/nagflux/target/elasticsearch"
 	"github.com/griesbacher/nagflux/target/file/json"
 	"github.com/griesbacher/nagflux/target/influx"
