@@ -8,7 +8,7 @@ import (
 	"github.com/griesbacher/nagflux/collector"
 	"github.com/griesbacher/nagflux/helper"
 	"github.com/griesbacher/nagflux/logging"
-	"github.com/griesbacher/nagflux/statistics"
+	"github.com/FreddieAkeroyd/nagflux/statistics"
 	"github.com/kdar/factorlog"
 	"io/ioutil"
 	"net/http"

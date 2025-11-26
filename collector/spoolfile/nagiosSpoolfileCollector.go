@@ -5,7 +5,7 @@ import (
 	"github.com/griesbacher/nagflux/collector/livestatus"
 	"github.com/griesbacher/nagflux/config"
 	"github.com/griesbacher/nagflux/logging"
-	"github.com/griesbacher/nagflux/statistics"
+	"github.com/FreddieAkeroyd/nagflux/statistics"
 	"io/ioutil"
 	"path"
 	"time"
