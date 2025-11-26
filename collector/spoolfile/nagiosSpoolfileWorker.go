@@ -8,7 +8,7 @@ import (
 	"github.com/griesbacher/nagflux/collector/livestatus"
 	"github.com/griesbacher/nagflux/helper"
 	"github.com/griesbacher/nagflux/logging"
-	"github.com/griesbacher/nagflux/statistics"
+	"github.com/FreddieAkeroyd/nagflux/statistics"
 	"io"
 	"os"
 	"regexp"
