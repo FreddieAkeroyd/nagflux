@@ -5,7 +5,7 @@ import (
 	"github.com/griesbacher/nagflux/collector"
 	"github.com/griesbacher/nagflux/logging"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/promhttp"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"net"
 	"net/http"
 	"sync"
